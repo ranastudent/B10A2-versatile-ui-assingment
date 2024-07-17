@@ -23,7 +23,7 @@
 
 .header {
       width: 100%;
-      height: 700px;
+      height: 680px;
       background: rgba(0, 0, 0, 0.884);
       padding-bottom: 20px;
 }
@@ -216,3 +216,78 @@
       line-height: 20px;
       letter-spacing: 1px;
 }
+
+/* banner style finish here */
+
+/* section habitt style here */
+.habbit {
+      width: 100%;
+      height: auto;
+      background-color: rgb(0, 0, 0);
+      margin-top: 0px;
+
+}
+
+.habbit-passage {
+      width: 70%;
+      margin: 0px auto;
+}
+
+.habbit-title {
+      color: rgb(255, 255, 255);
+      font-family: Inter;
+      font-size: 3rem;
+      font-weight: 900;
+      line-height: 120%;
+      letter-spacing: 0%;
+      text-align: center;
+}
+
+.habbit-description {
+      color: rgba(255, 255, 255, 0.5);
+      font-family: Inter;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0.3px;
+      text-align: center;
+}
+
+.habbit-cards {
+      display: flex;
+      gap: 20px;
+      justify-content: space-evenly;
+      margin-top: 20px;
+      margin-left: 100px;
+}
+
+.card-title {
+      color: rgb(255, 255, 255);
+      font-family: Inter;
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 120%;
+      letter-spacing: 0%;
+      text-align: center;
+      padding-left: 0px;
+      padding-top: 30px;
+      padding-right: 177px;
+}
+
+.card-description {
+      color: rgba(255, 255, 255, 0.5);
+      font-family: Inter;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 18px;
+      letter-spacing: 0.3px;
+      text-align: center;
+      padding-right: 170px;
+}
+
+.card-img img{
+      
+      border-radius: 50%;
+      border: 2px solid black;
+}
+/* habbit style finish here */
