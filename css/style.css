@@ -307,7 +307,8 @@ main {
       margin: 0px auto;
       margin-top: 30px;
 }
-.runing-passage{
+
+.runing-passage {
       padding-left: 30px;
 }
 
@@ -355,4 +356,123 @@ main {
       line-height: 22px;
       letter-spacing: 0px;
       text-align: center;
+}
+
+/* running style finish here */
+
+/* bmi-passage style here */
+.bmi-passage {
+      width: 60%;
+      margin: 10px auto;
+}
+
+.bmi-title {
+      color: rgb(255, 255, 255);
+      font-family: Inter;
+      font-size: 3rem;
+      font-weight: 900;
+      line-height: 120%;
+      letter-spacing: 0%;
+      text-align: left;
+}
+
+.bmi-description {
+      color: rgba(255, 255, 255, 0.5);
+      font-family: Inter;
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0.3px;
+      text-align: left;
+}
+
+/* bmi-calculatar styles here */
+.bmi-calculatar {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      background: rgb(34, 34, 34);
+}
+
+.bmi-table-title {
+      color: rgb(255, 255, 255);
+      font-family: Inter;
+      font-size: 1.75rem;
+      font-weight: 900;
+      line-height: 120%;
+      letter-spacing: 0%;
+      text-align: left;
+      padding-left: 100px;
+}
+
+table {
+      width: 100%;
+      height: 80%;
+      border-collapse: collapse;
+      margin: 0 auto;
+      margin-left: 100px;
+}
+
+th,
+td {
+      border: 1px solid #000;
+      padding: 8px;
+      text-align: left;
+      color: #f2f2f2;
+}
+
+tr,
+td {
+      color: rgba(255, 255, 255, 0.5);
+}
+
+
+form {
+      width: 80%;
+
+      background-color: #444;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      margin-top: 10px;
+      margin-bottom: 10px;
+      margin-right: 300px;
+}
+
+label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: bold;
+}
+
+input,
+select {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 20px;
+      border: none;
+      border-radius: 4px;
+      background-color: #555;
+      color: #fff;
+}
+
+input:focus,
+select:focus {
+      outline: none;
+      background-color: #666;
+}
+
+.btn-bmi {
+      width: 224px;
+      height: 54px;
+      padding: 16px 40px 16px 40px;
+      margin: 34px 0px;
+      border-radius: 42px;
+      background: rgb(230, 83, 60);
+      color: rgb(255, 255, 255);
+      font-family: Inter;
+      font-size: 1rem;
+      font-weight: 600;
+      line-height: 22px;
+      letter-spacing: 0px;
 }
