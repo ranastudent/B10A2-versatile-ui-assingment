@@ -5,6 +5,15 @@
             background: rgba(0, 0, 0, 0.884);
             padding-bottom: 20px;
       }
+      .btn-join{
+            margin: 0px 0px;
+            width: 184px;
+            margin-left: 3px;
+            margin-right: 25px;
+      }
+      .btn-download{
+            width: 184px;
+      }
 
       .menu {
             display: none;
@@ -52,6 +61,13 @@
       }
       .habbit-cards{
             flex-direction: column;
+      }
+      .runing-part{
+            flex-direction: column;
+      }
+      .run-img img {
+            width: 266px;
+            height: 212px;
       }
       
 }

@@ -220,6 +220,10 @@
 /* banner style finish here */
 
 /* section habitt style here */
+main {
+      background-color: rgb(0, 0, 0);
+}
+
 .habbit {
       width: 100%;
       height: auto;
@@ -285,9 +289,70 @@
       padding-right: 170px;
 }
 
-.card-img img{
-      
+.card-img img {
+
       border-radius: 50%;
       border: 2px solid black;
 }
+
 /* habbit style finish here */
+
+/* running style start here */
+.runing-part {
+      display: flex;
+      justify-content: space-between;
+      width: 80%;
+      border-radius: 18px;
+      background: rgb(34, 34, 34);
+      margin: 0px auto;
+      margin-top: 30px;
+}
+.runing-passage{
+      padding-left: 30px;
+}
+
+.run-title {
+      color: rgb(255, 255, 255);
+      font-family: Inter;
+      font-size: 3rem;
+      font-weight: 900;
+      line-height: 120%;
+      letter-spacing: 0%;
+      text-align: left;
+      padding-top: 10px;
+      margin-top: 30px;
+}
+
+.run-img img {
+      width: 366px;
+      height: 312px;
+      padding: 30px;
+}
+
+.run-description {
+      color: rgba(255, 255, 255, 0.5);
+      font-family: Inter;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0.3px;
+      text-align: left;
+      padding-top: 10px;
+}
+
+.run-btn {
+      width: 224px;
+      height: 54px;
+      padding: 16px 40px 16px 40px;
+      justify-content: center;
+      border-radius: 42px;
+      background: rgb(230, 83, 60);
+      margin: 34px 0px;
+      color: rgb(255, 255, 255);
+      font-family: Inter;
+      font-size: 1rem;
+      font-weight: 600;
+      line-height: 22px;
+      letter-spacing: 0px;
+      text-align: center;
+}
