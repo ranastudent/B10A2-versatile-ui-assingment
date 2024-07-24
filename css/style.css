@@ -223,6 +223,8 @@
 /* section habitt style here */
 main {
       background-color: rgb(0, 0, 0);
+      margin-bottom: 0px;
+      height: 100%;
 }
 
 .habbit {
@@ -571,8 +573,8 @@ select:focus {
 footer {
       width: 100%;
       background-color: rgb(0, 0, 0);
-      padding-top: 40px;
-      padding-bottom: 20px;
+      padding-top: 0px;
+      padding-bottom: 40px;
 
 }
 
@@ -580,7 +582,7 @@ footer {
       width: 97%;
       border-radius: 12px;
       background: rgba(255, 255, 255, 0.1);
-      margin: 10px auto;
+      margin: 0px auto;
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       gap: 40px;
@@ -639,3 +641,66 @@ footer {
       letter-spacing: 0.3px;
       text-align: center;
 }
+/* form section  style here*/
+.form-section{
+      margin-top: 0px;
+      margin-bottom: 0px;
+      padding-left: 20px;
+}
+.form-section {
+      max-width: 96%;
+      margin: 30px auto;
+      padding: 20px;
+      background-color:black;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 4.75rem;
+      font-weight: 700;
+      color: #fff;
+    }
+    
+    .gym-form {
+      display: grid;
+      gap: 15px;
+      margin-left: 60px;
+      padding-right: 30px;
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      gap: 40px;
+    }
+    
+    .form-group {
+      display: flex;
+      flex-direction: column;
+    }
+    
+    label {
+      margin-bottom: 5px;
+      font-size: 1rem;
+    }
+    
+    input, select {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 1.5rem;
+    }
+    
+    button {
+      padding: 10px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 2rem;
+    }
+    
+    button:hover {
+      background-color: #45a049;
+    }
